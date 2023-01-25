@@ -16,6 +16,20 @@ for (let i = 0; i < 100; i++) {
     listItem.classList.add("box");
 
     // se il numero è divisibile per 3 e 5 colora di rosso e scrivi fizzbuzz 
+    
+    
+    // soluzione con correzione del tutor
+    
+    // if ((i + 1) % 15 == 0) {
+
+    //     listItem.classList.add("box-fizz-buzz");
+    //     listItem.innerHTML = ("fizzbuzz");
+
+    // } 
+
+
+    // soluzione creata da me
+    
     if ((i + 1) % 3 == 0 && (i + 1) % 5 == 0) {
 
         listItem.classList.add("box-fizz-buzz");
