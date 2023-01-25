@@ -1,0 +1,38 @@
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    list-style: none;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    margin: 10px;
+}
+
+.box-fizz{
+    background-color: greenyellow;
+}
+
+.box-buzz{
+    background-color: yellow;
+}
+
+.box-fizz-buzz{
+    background-color: red;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
