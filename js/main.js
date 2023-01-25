@@ -13,18 +13,20 @@ for (let i = 0; i < 100; i++) {
 
     if ((i + 1) % 3 == 0 && (i + 1) % 5 == 0) {
 
-        listItem.classList.add("box-fizz-buzz")
+        listItem.classList.add("box-fizz-buzz");
+        listItem.innerHTML = ("fizzbuzz");
 
     } 
     else if ((i + 1) % 5 == 0) {
 
-        listItem.classList.add("box-fizz")
+        listItem.classList.add("box-buzz");
+        listItem.innerHTML = ("buzz");
 
     }
     else if ((i + 1) % 3 == 0) {
 
-        listItem.classList.add("box-buzz")
-        
+        listItem.classList.add("box-fizz");
+        listItem.innerHTML = ("fizz");
     }
     
 
