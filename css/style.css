@@ -1,3 +1,10 @@
+/* background  */
+
+body{
+    background-color: #083b4c;
+}
+
+/* lista  */
 #list {
     display: flex;
     flex-wrap: wrap;
@@ -6,30 +13,33 @@
     list-style: none;
 }
 
+/* box neutrale  */
 .box{
     height: 100px;
     width: 100px;
     line-height: 100px;
     text-align: center;
     font-weight: bold;
-    background-color: blue;
+    background-color: #1389b2;
     margin: 10px;
 }
 
+/* box friz verde  */
 .box-fizz{
-    background-color: greenyellow;
+    background-color: #0cd6a1;
 }
 
+/* box buzz giallo */
 .box-buzz{
-    background-color: yellow;
+    background-color: #ffd166;
 }
 
+/* box fizz red  */
 .box-fizz-buzz{
-    background-color: red;
+    background-color: #f0466f;
 }
 
-
-
+/* titolo  */
 h1{
     text-align: center;
     font-size: 3rem;
